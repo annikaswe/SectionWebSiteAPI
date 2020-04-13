@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Section_Website.Data;
 using Section_Website.Model;
+using System;
+using System.Threading.Tasks;
 
 namespace Section_Website.Controllers
 {
@@ -42,12 +39,12 @@ namespace Section_Website.Controllers
             try
             {
                 var result = await _userManager.CreateAsync(applicationUser, model.Password);
-                await _context.SaveChangesAsync();     
+                await _context.SaveChangesAsync();
                 return Ok(result);
             }
             catch (Exception ex)
             {
-                return BadRequest(new { message="Server Error"});
+                return BadRequest(new { message = "Server Error" });
             }
         }
 
@@ -71,7 +68,7 @@ namespace Section_Website.Controllers
                 responseModel.responeObject = new { message = "Username or password is incorrect." };
                 return Ok(responseModel);
             }
-                
+
         }
 
 

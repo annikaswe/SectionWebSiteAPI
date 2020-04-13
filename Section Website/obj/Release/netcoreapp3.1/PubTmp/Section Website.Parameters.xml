@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="annikaproject-001-site1" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\msrkm\\Documents\\GitHub\\SectionWebSiteAPI\\Section\ Website\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="Section_Website.Data.ApplicationDbContext" description="" value="Server=sajidur.com;Database=section_website;Trusted_Connection=false;User Id=annikaswe;Password=V@g0jj15;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\msrkm\\Documents\\GitHub\\SectionWebSiteAPI\\Section\ Website\\obj\\Release\\netcoreapp3\.1\\PubTmp\\EFSQLScripts\\Section_Website\.Data\.ApplicationDbContext\.sql$" />
+  </parameter>
+</parameters>

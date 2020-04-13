@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlj6Rz74U40GhrLuD59h0tQAAAAACAAAAAAAQZgAAAAEAACAAAAAm/yfqPNCms770WiN9KdrA3tJU2C8xrs8qshN2Do4itgAAAAAOgAAAAAIAACAAAADYIR4Pw1Tmk6BcufsRcAVeLinmOxGKt0mxvIYjgz9C0iAAAADbe0Cl7OOEOhFAXJXK9PcEap81X5iqRyb4vzGaN5N7vEAAAADB7YMvVI/tWCJd4y8POQ8NEk/fu+cIXjLsjsUz6KisA5aC67Ku81FtyeTqfZNSo8XjuOQf3hIlKv66gFAxzKQk</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="Online">
+      <Value>Server=sajidur.com%3bDatabase=section_website%3bTrusted_Connection=false%3bUser Id=annikaswe%3bPassword=V%40g0jj15%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Section_Website.Data.ApplicationDbContext">
+      <Value>Server=sajidur.com%3bDatabase=section_website%3bTrusted_Connection=false%3bUser Id=annikaswe%3bPassword=V%40g0jj15%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
